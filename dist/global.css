@@ -1,0 +1,346 @@
+/* * { font-family: "Segoe UI Light", "Segoe UI","Microsoft Jhenghei", "Microsoft Yahei", arial, sans-serif; } */
+* { font-family: "futura"; }
+/* * { font-weight: 700; } */
+
+.text-left { text-align: left!important; }
+.text-right { text-align: right!important; }
+.text-center { text-align: center!important; }
+
+.font-weight { font-weight: 700; }
+
+
+.margin { margin: 15px; }
+.margin-top { margin-top: 15px; }
+.margin-left { margin-left: 15px; }
+.margin-right { margin-right: 15px; }
+.margin-bottom { margin-bottom: 15px; }
+
+
+
+
+
+
+.float-left { float: left!important; }
+.float-right { float: right!important; }
+.clearfix:after { content: ".";clear: both;display: block;height: 0;overflow: hidden;visibility: hidden; }
+
+
+/*表单重置样式*/
+.layui-form * {
+    font-size: 16px!important;
+}
+.layui-form .layui-btn {
+	font-size: 14px!important;
+}
+.layui-form-checkbox {
+    line-height: 10px;
+}
+.layui-form-checkbox span,
+.layui-form-checkbox i {
+    line-height: 30px;
+}
+.layui-form-switch {
+    min-width: 70px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2px;
+    margin-top: 4px;
+}
+.layui-form-switch i {
+    margin-top: 4px;
+}
+.layui-form-item {
+	padding-top: 10px;
+}
+.layui-form-item.line {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #F2F2F2;
+}
+.layui-form-item .ipt-val {
+	line-height: 39.5px;
+}
+
+
+/*重置表格样式*/
+.layui-table,
+.layui-table-view { margin: 0; }
+.layui-table-page { background-color: #FFFFFF; }
+.layui-table-cell {
+    height: auto;
+}
+.layui-table * {
+	font-size: 16px!important;
+}
+.layui-table .layui-btn {
+    margin-top: -4px;
+	font-size: 12px!important;
+}
+
+.layui-tab li {
+    font-size: 16px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*页面外层样式*/
+.page {
+	padding: 15px;
+	background-color: #fff;
+}
+
+
+/*页面顶部区样式*/
+.page-topbar {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0px 15px;
+	height: 60px;
+	border-top: 1px solid #E6E6E6;
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	background-color: #F2F2F2;
+}
+.page-topbar.un-bottom-border {
+	border-bottom: none;
+}
+.page-topbar_title {
+	flex: 0 0 40%;
+	text-align: left;
+	display: inline-block;
+	line-height: 60px;
+	font-size: 16px;
+	color: #333;
+}
+.page-topbar_tools {
+	flex: 0 0 60%;
+	text-align: right;
+	display: inline-block;
+	line-height: 60px;
+}
+.page-topbar_tools .jg {
+    margin-right: 4px;
+}
+/*按钮组件*/
+.topbar_tools__btn {
+    display: inline-block;
+}
+.topbar_tools__btn a {
+    display: inline-block;
+    width: 90px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #009688;
+    cursor: pointer;
+}
+.topbar_tools__btn a i {
+    font-size: 14px;
+}
+/*开关组件*/
+.topbar_tools__switch {
+    display: inline-block;
+}
+.topbar_tools__switch a {
+    display: inline-block;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    outline: none;
+    background-color: #FFFFFF;
+}
+.topbar_tools__switch a:not(:first-child) {
+    margin-left: -4px;
+}
+.topbar_tools__switch a.active {
+    color: #fff;
+    background-color: #009688;
+}
+/*日期组件*/
+.topbar_tools__date {
+    display: inline-block;
+}
+.topbar_tools__date input {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    background-color: #009688;
+    padding-left: 0;
+    cursor: pointer;
+    text-align: center;
+    caret-color: transparent;
+}
+.topbar_tools__date input::-webkit-input-placeholder { color: #fff; } 
+.topbar_tools__date input:-moz-placeholder { color: #fff; } 
+.topbar_tools__date input::-moz-placeholder { color: #fff; } 
+.topbar_tools__date input:-ms-input-placeholder { color: #fff; }
+/*检索组件*/
+.topbar_tools__search {
+    display: inline-block;
+}
+.topbar_tools__search input {
+    display: inline-block;
+    width: 260px;
+    height: 36px;
+    border: none;
+    border-radius: 0;
+    background-color: #FFFFFF;
+}
+.topbar_tools__search input:focus {
+    border: none!important;
+}
+.topbar_tools__search i {
+    display: inline-block;
+    width: 42px;
+    height: 37px;
+    line-height: 36px;
+    text-align: center;
+    border-left: none;
+    margin-left: -4px;
+    color: #fff;
+    background-color: #009688;
+    cursor: pointer;
+}
+
+
+
+
+/*页面内容区样式*/
+.page-content {
+	font-size: 16px;
+}
+.page-content.jg {
+    padding: 15px;
+}
+
+
+/*分页组件*/
+.pagination {
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: #F2F2F2;
+}
+.pagination .layui-laypage {
+    margin: 0;
+}
+.pagination .layui-laypage a,
+.pagination .layui-laypage span {
+    margin: 0;
+}
+.pagination .layui-laypage a,
+.pagination .layui-laypage-curr {
+    height: 34px;
+    line-height: 34px;
+}
+.pagination .layui-laypage a {
+    border-right: none;
+}
+.pagination .layui-laypage-prev {
+    border-right: none;
+}
+.pagination .layui-laypage-next {
+	margin-right: 10px!important;
+    border-right: 1px solid #E2E2E2!important;
+}
+.pagination .layui-laypage input,
+.pagination .layui-laypage-btn {
+    display: inline-block;
+    height: 36px;
+    margin-top: -3px;
+	color: #333333;
+}
+.pagination .layui-laypage span {
+    background-color: inherit;
+}
+.pagination .layui-laypage-count {
+    margin-left: 10px!important;
+	color: #999999;
+}
+.pagination * {
+	font-size: 14px!important;
+}
+.pagination .layui-laypage-btn {
+	font-size: 14px!important;
+}
+.pagination .layui-icon {
+	font-size: 14px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*页面滑块样式*/
+.nui-scroll {
+    
+}
+.nui-scroll::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+/*正常情况下滑块的样式*/
+.nui-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 8px;
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1);
+}
+/*鼠标悬浮在该类指向的控件上时滑块的样式*/
+.nui-scroll:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1);
+}
+/*鼠标悬浮在滑块上时滑块的样式*/
+.nui-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1);
+}
+/*正常时候的主干部分*/
+.nui-scroll::-webkit-scrollbar-track {
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    background-color: white;
+}
+/*鼠标悬浮在滚动条上的主干部分*/
+.nui-scroll::-webkit-scrollbar-track:hover {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .01);
+}
