@@ -1,0 +1,1 @@
+System.register(["./index-legacy-6eb67069.js"],(function(t,e){"use strict";var n,s,i,r;return{setters:[t=>{n=t.f,s=t.j,i=t.n,r=t.B}],execute:function(){t("default",(function(){const t=n();return s.jsx(i,{status:"404",title:"404",subTitle:"Sorry, the page you visited does not exist.",extra:s.jsx(r,{type:"primary",onClick:function(){t("/")},children:"返回登录页"})})}))}}}));
