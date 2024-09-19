@@ -1,0 +1,1 @@
+import{p as o,q as t,z as a,B as i}from"./index-17a7ae96.js";function r(){const e=o();function s(){e("/")}return t.jsx(a,{status:"404",title:"404",subTitle:"Sorry, the page you visited does not exist.",extra:t.jsx(i,{type:"primary",onClick:s,children:"返回登录页"})})}export{r as default};
